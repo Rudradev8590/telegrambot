@@ -4,8 +4,8 @@ const multer = require("multer");
 const fs = require("fs");
 
 // ✅ Replace with your actual Telegram bot token & chat ID
-const TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-const CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"; // Use your chat ID or group ID
+const TELEGRAM_BOT_TOKEN = "7647997516:AAHd6v9EH2OlCS11I-xWOFBkT2mhFeAbEBk";
+const CHAT_ID = "1331902974"; // Use your chat ID or group ID
 
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
 const app = express();
